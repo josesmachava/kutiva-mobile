@@ -40,6 +40,7 @@ export default class App extends React.Component {
 
     return(
       <View style={{flex: 1, paddingTop:20}}>
+        <Text>Hello</Text>
         <FlatList
           data={this.state.dataSource}
           renderItem={({item}) => <Text>{item.name} </Text>}
